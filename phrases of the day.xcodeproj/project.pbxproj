@@ -12,6 +12,9 @@
 		44F474F62222302800473592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F474F42222302800473592 /* Main.storyboard */; };
 		44F474F82222302900473592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F474F72222302900473592 /* Assets.xcassets */; };
 		44F474FB2222302900473592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44F474F92222302900473592 /* LaunchScreen.storyboard */; };
+		44F475052222304100473592 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F475022222304100473592 /* logo.png */; };
+		44F475062222304100473592 /* aspas-esquerda.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F475032222304100473592 /* aspas-esquerda.png */; };
+		44F475072222304100473592 /* aspas-direita.png in Resources */ = {isa = PBXBuildFile; fileRef = 44F475042222304100473592 /* aspas-direita.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		44F474F72222302900473592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44F474FA2222302900473592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44F474FC2222302900473592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F475022222304100473592 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		44F475032222304100473592 /* aspas-esquerda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-esquerda.png"; sourceTree = "<group>"; };
+		44F475042222304100473592 /* aspas-direita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aspas-direita.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		44F474EF2222302800473592 /* phrases of the day */ = {
 			isa = PBXGroup;
 			children = (
+				44F475042222304100473592 /* aspas-direita.png */,
+				44F475032222304100473592 /* aspas-esquerda.png */,
+				44F475022222304100473592 /* logo.png */,
 				44F474F02222302800473592 /* AppDelegate.swift */,
 				44F474F22222302800473592 /* ViewController.swift */,
 				44F474F42222302800473592 /* Main.storyboard */,
@@ -122,9 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F475052222304100473592 /* logo.png in Resources */,
 				44F474FB2222302900473592 /* LaunchScreen.storyboard in Resources */,
 				44F474F82222302900473592 /* Assets.xcassets in Resources */,
 				44F474F62222302800473592 /* Main.storyboard in Resources */,
+				44F475062222304100473592 /* aspas-esquerda.png in Resources */,
+				44F475072222304100473592 /* aspas-direita.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
